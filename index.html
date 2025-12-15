@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Gerrymandering - B Solutions</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; background: #f5f5f5; }
+        .header { 
+            background: linear-gradient(45deg, #1a237e, #4a148c);
+            color: white; 
+            padding: 25px; 
+            border-radius: 10px; 
+            margin-bottom: 20px;
+        }
+        .stats-box { 
+            background: white; 
+            padding: 20px; 
+            border-radius: 10px; 
+            margin-bottom: 20px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        .solutions-grid { 
+            display: flex; 
+            flex-wrap: wrap; 
+            gap: 20px; 
+            justify-content: center;
+        }
+        .solution-card { 
+            background: white; 
+            border-radius: 10px; 
+            padding: 15px; 
+            width: 300px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            transition: transform 0.2s;
+            text-align: center;
+        }
+        .solution-card:hover { 
+            transform: translateY(-5px); 
+            box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+        }
+        .solution-card img { 
+            width: 100%; 
+            border-radius: 5px; 
+            border: 2px solid #ddd;
+        }
+        .win-badge {
+            display: inline-block;
+            padding: 5px 12px;
+            border-radius: 15px;
+            color: white;
+            font-weight: bold;
+            margin: 5px;
+        }
+        .win-3 { background: #FF9800; }  /* Orange */
+        .win-4 { background: #4CAF50; }  /* Green */
+        .win-5 { background: #2196F3; }  /* Blue */
+        .download-btn {
+            display: inline-block;
+            background: #2196F3;
+            color: white;
+            padding: 8px 16px;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+        .download-btn:hover { background: #1976D2; }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Gerrymandering Analysis Report</h1>
+        <h2>5×5 Grid | Target: B Majority</h2>
+        <p>Generated: 2025-12-06 04:54:04</p>
+    </div>
+    
+    <div class="stats-box">
+        <h3>📊 Statistics</h3>
+        <div style="display: flex; gap: 30px; flex-wrap: wrap;">
+            <div>
+                <h4>Grid Composition</h4>
+                <p>🔴 R cells: 16 (64.0%)</p>
+                <p>🔵 B cells: 9 (36.0%)</p>
+            </div>
+            <div>
+                <h4>Results</h4>
+                <p>Total solutions: <strong>29</strong></p>
+                <p>Showing: <strong>29</strong> solutions</p>
+            </div>
+            <div>
+                <h4>Win Distribution</h4>
+                <p><span class="win-badge win-3">3 wins</span>: 29 solutions</p>
+                <p><span class="win-badge win-4">4 wins</span>: 0 solutions</p>
+                <p><span class="win-badge win-5">5 wins</span>: 0 solutions</p>
+            </div>
+        </div>
+        <img src="00_original_grid.png" alt="Original Grid" style="max-width: 300px; margin-top: 15px;">
+    </div>
+    
+    <h2>🎯 All Solutions (29 shown)</h2>
+    
+    <div class="solutions-grid">
+
+        <div class="solution-card">
+            <h3>Solution 1</h3>
+            <div class="win-badge win-3">B wins 3/5</div>
+            <img src="solution_001.png" alt="Solution 1">
+            <p>
+                <a href="solution_001.png" class="download-btn" download>
+                    Download PNG
+                </a>
+            </p>
+        </div>
+        
+        <div class="solution-card">
+            <h3>Solution 2</h3>
+            <div class="win-badge win-3">B wins 3/5</div>
+            <img src="solution_002.png" alt="Solution 2">
+            <p>
+                <a href="solution_002.png" class="download-btn" download>
+                    Download PNG
+                </a>
+            </p>
+        </div>
+        
+        <div class="solution-card">
+            <h3>Solution 3</h3>
+            <div class="win-badge win-3">B wins 3/5</div>
+            <img src="solution_003.png" alt="Solution 3">
+            <p>
+                <a href="solution_003.png" class="download-btn" download>
+                    Download PNG
+                </a>
+            </p>
+        </div>
+        
+        <div class="solution-card">
+            <h3>Solution 4</h3>
+            <div class="win-badge win-3">B wins 3/5</div>
+            <img src="solution_004.png" alt="Solution 4">
+            <p>
+                <a href="solution_004.png" class="download-btn" download>
+                    Download PNG
+                </a>
+            </p>
+        </div>
+        
+        <div class="solution-card">
+            <h3>Solution 5</h3>
+            <div class="win-badge win-3">B wins 3/5</div>
+            <img src="solution_005.png" alt="Solution 5">
+            <p>
+                <a href="solution_005.png" class="download-btn" download>
+                    Download PNG
+                </a>
+            </p>
+        </div>
+        
+        <div class="solution-card">
+            <h3>Solution 6</h3>
+            <div class="win-badge win-3">B wins 3/5</div>
+            <img src="solution_006.png" alt="Solution 6">
+            <p>
+                <a href="solution_006.png" class="download-btn" download>
+                    Download PNG
+                </a>
+            </p>
+        </div>
+        
+        <div class="solution-card">
+            <h3>Solution 7</h3>
+            <div class="win-badge win-3">B wins 3/5</div>
+            <img src="solution_007.png" alt="Solution 7">
+            <p>
+                <a href="solution_007.png" class="download-btn" download>
+                    Download PNG
+                </a>
+            </p>
+        </div>
+        
+        <div class="solution-card">
+            <h3>Solution 8</h3>
+            <div class="win-badge win-3">B wins 3/5</div>
+            <img src="solution_008.png" alt="Solution 8">
+            <p>
+                <a href="solution_008.png" class="download-btn" download>
+                    Download PNG
+                </a>
+            </p>
+        </div>
+        
+        <div class="solution-card">
+            <h3>Solution 9</h3>
+            <div class="win-badge win-3">B wins 3/5</div>
+            <img src="solution_009.png" alt="Solution 9">
+            <p>
+                <a href="solution_009.png" class="download-btn" download>
+                    Download PNG
+                </a>
+            </p>
+        </div>
+        
+        <div class="solution-card">
+            <h3>Solution 10</h3>
+            <div class="win-badge win-3">B wins 3/5</div>
+            <img src="solution_010.png" alt="Solution 10">
+            <p>
+                <a href="solution_010.png" class="download-btn" download>
+                    Download PNG
+                </a>
+            </p>
+        </div>
+        
+        <div class="solution-card">
+            <h3>Solution 11</h3>
+            <div class="win-badge win-3">B wins 3/5</div>
+            <img src="solution_011.png" alt="Solution 11">
+            <p>
+                <a href="solution_011.png" class="download-btn" download>
+                    Download PNG
+                </a>
+            </p>
+        </div>
+        
+        <div class="solution-card">
+            <h3>Solution 12</h3>
+            <div class="win-badge win-3">B wins 3/5</div>
+            <img src="solution_012.png" alt="Solution 12">
+            <p>
+                <a href="solution_012.png" class="download-btn" download>
+                    Download PNG
+                </a>
+            </p>
+        </div>
+        
+        <div class="solution-card">
+            <h3>Solution 13</h3>
+            <div class="win-badge win-3">B wins 3/5</div>
+            <img src="solution_013.png" alt="Solution 13">
+            <p>
+                <a href="solution_013.png" class="download-btn" download>
+                    Download PNG
+                </a>
+            </p>
+        </div>
+        
+        <div class="solution-card">
+            <h3>Solution 14</h3>
+            <div class="win-badge win-3">B wins 3/5</div>
+            <img src="solution_014.png" alt="Solution 14">
+            <p>
+                <a href="solution_014.png" class="download-btn" download>
+                    Download PNG
+                </a>
+            </p>
+        </div>
+        
+        <div class="solution-card">
+            <h3>Solution 15</h3>
+            <div class="win-badge win-3">B wins 3/5</div>
+            <img src="solution_015.png" alt="Solution 15">
+            <p>
+                <a href="solution_015.png" class="download-btn" download>
+                    Download PNG
+                </a>
+            </p>
+        </div>
+        
+        <div class="solution-card">
+            <h3>Solution 16</h3>
+            <div class="win-badge win-3">B wins 3/5</div>
+            <img src="solution_016.png" alt="Solution 16">
+            <p>
+                <a href="solution_016.png" class="download-btn" download>
+                    Download PNG
+                </a>
+            </p>
+        </div>
+        
+        <div class="solution-card">
+            <h3>Solution 17</h3>
+            <div class="win-badge win-3">B wins 3/5</div>
+            <img src="solution_017.png" alt="Solution 17">
+            <p>
+                <a href="solution_017.png" class="download-btn" download>
+                    Download PNG
+                </a>
+            </p>
+        </div>
+        
+        <div class="solution-card">
+            <h3>Solution 18</h3>
+            <div class="win-badge win-3">B wins 3/5</div>
+            <img src="solution_018.png" alt="Solution 18">
+            <p>
+                <a href="solution_018.png" class="download-btn" download>
+                    Download PNG
+                </a>
+            </p>
+        </div>
+        
+        <div class="solution-card">
+            <h3>Solution 19</h3>
+            <div class="win-badge win-3">B wins 3/5</div>
+            <img src="solution_019.png" alt="Solution 19">
+            <p>
+                <a href="solution_019.png" class="download-btn" download>
+                    Download PNG
+                </a>
+            </p>
+        </div>
+        
+        <div class="solution-card">
+            <h3>Solution 20</h3>
+            <div class="win-badge win-3">B wins 3/5</div>
+            <img src="solution_020.png" alt="Solution 20">
+            <p>
+                <a href="solution_020.png" class="download-btn" download>
+                    Download PNG
+                </a>
+            </p>
+        </div>
+        
+        <div class="solution-card">
+            <h3>Solution 21</h3>
+            <div class="win-badge win-3">B wins 3/5</div>
+            <img src="solution_021.png" alt="Solution 21">
+            <p>
+                <a href="solution_021.png" class="download-btn" download>
+                    Download PNG
+                </a>
+            </p>
+        </div>
+        
+        <div class="solution-card">
+            <h3>Solution 22</h3>
+            <div class="win-badge win-3">B wins 3/5</div>
+            <img src="solution_022.png" alt="Solution 22">
+            <p>
+                <a href="solution_022.png" class="download-btn" download>
+                    Download PNG
+                </a>
+            </p>
+        </div>
+        
+        <div class="solution-card">
+            <h3>Solution 23</h3>
+            <div class="win-badge win-3">B wins 3/5</div>
+            <img src="solution_023.png" alt="Solution 23">
+            <p>
+                <a href="solution_023.png" class="download-btn" download>
+                    Download PNG
+                </a>
+            </p>
+        </div>
+        
+        <div class="solution-card">
+            <h3>Solution 24</h3>
+            <div class="win-badge win-3">B wins 3/5</div>
+            <img src="solution_024.png" alt="Solution 24">
+            <p>
+                <a href="solution_024.png" class="download-btn" download>
+                    Download PNG
+                </a>
+            </p>
+        </div>
+        
+        <div class="solution-card">
+            <h3>Solution 25</h3>
+            <div class="win-badge win-3">B wins 3/5</div>
+            <img src="solution_025.png" alt="Solution 25">
+            <p>
+                <a href="solution_025.png" class="download-btn" download>
+                    Download PNG
+                </a>
+            </p>
+        </div>
+        
+        <div class="solution-card">
+            <h3>Solution 26</h3>
+            <div class="win-badge win-3">B wins 3/5</div>
+            <img src="solution_026.png" alt="Solution 26">
+            <p>
+                <a href="solution_026.png" class="download-btn" download>
+                    Download PNG
+                </a>
+            </p>
+        </div>
+        
+        <div class="solution-card">
+            <h3>Solution 27</h3>
+            <div class="win-badge win-3">B wins 3/5</div>
+            <img src="solution_027.png" alt="Solution 27">
+            <p>
+                <a href="solution_027.png" class="download-btn" download>
+                    Download PNG
+                </a>
+            </p>
+        </div>
+        
+        <div class="solution-card">
+            <h3>Solution 28</h3>
+            <div class="win-badge win-3">B wins 3/5</div>
+            <img src="solution_028.png" alt="Solution 28">
+            <p>
+                <a href="solution_028.png" class="download-btn" download>
+                    Download PNG
+                </a>
+            </p>
+        </div>
+        
+        <div class="solution-card">
+            <h3>Solution 29</h3>
+            <div class="win-badge win-3">B wins 3/5</div>
+            <img src="solution_029.png" alt="Solution 29">
+            <p>
+                <a href="solution_029.png" class="download-btn" download>
+                    Download PNG
+                </a>
+            </p>
+        </div>
+        
+    </div>
+</body>
+</html>
